@@ -4,10 +4,11 @@ try:
     from setuptools import setup
 except BaseException:
     from distutils import setup
-from sockethttp import __version__
+from superapi import __version__
 import os
 import platform
-name = "ftapi"
+
+name = "superapi"
 if str(platform.python_version()).startswith("2.7"):
     print(
         "Warning: %s has not been tested on this Python version, which may cause bugs"
