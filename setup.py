@@ -7,7 +7,7 @@ except BaseException:
 from sockethttp import __version__
 import os
 import platform
-name = "sockethttp"
+name = "ftapi"
 if str(platform.python_version()).startswith("2.7"):
     print(
         "Warning: %s has not been tested on this Python version, which may cause bugs"
